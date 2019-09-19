@@ -18,7 +18,7 @@
         </activity>
 
         <activity android:name=".ViewA">
-            
+
         </activity>
 
         <service android:name=".OverlayService">
