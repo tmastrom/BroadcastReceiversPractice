@@ -16,8 +16,12 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
         Toast.makeText(context, "Broadcast Received with data " + data, Toast.LENGTH_LONG).show();
         Log.i("BROADCAST", "onReceive" );
 
+        // Starts Overlay Service
+/*
         Intent i = new Intent(context, OverlayService.class);
         i.putExtra("Intent", "FLASHLIGHT_STATE_CHANGED");
         context.startService(i);
+*/
+
     }
 }
